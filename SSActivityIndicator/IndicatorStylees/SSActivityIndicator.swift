@@ -8,7 +8,7 @@
 import SwiftUI
 
 enum StyleCode {
-    case style1, style2, style3
+    case style1, style2, style3, style4
 }
 
 struct SSActivityIndicator: ViewModifier {
@@ -26,8 +26,10 @@ struct SSActivityIndicator: ViewModifier {
                 } else if style == .style2 {
                     Indicator2()
                         .foregroundColor(color)
-                } else {
+                } else if style == .style3 {
                     Indicator3(color: color)
+                } else {
+                    Indicator4(color: color)
                 }
             
             }

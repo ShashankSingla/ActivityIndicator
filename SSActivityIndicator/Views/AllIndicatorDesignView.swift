@@ -9,15 +9,16 @@ import SwiftUI
 
 struct AllIndicatorDesignView: View {
     var body: some View {
-        VStack {
+        VStack(spacing: 50) {
             HStack(spacing: 50) {
                 Indicator1()
-                    .foregroundColor(.blue)
+                    .foregroundColor(.white)
                 Indicator2()
-                    .foregroundColor(.blue)
-                Indicator3(color: .blue)
+                    .foregroundColor(.white)
+                Indicator3(color: .white)
+                Indicator4(color: .white)
+                
             }
-            Spacer()
         }
         .padding()
     }

@@ -17,6 +17,7 @@ struct Indicator2: View {
                     .animation(Animation.easeInOut.repeatForever(autoreverses: true).delay(Double(index) / 20).speed(0.5))
             }
         }
+        .frame(width: 65)
         .onAppear() {
             self.startAnimating = true
         }

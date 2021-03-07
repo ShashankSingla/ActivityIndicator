@@ -10,9 +10,10 @@ import SwiftUI
 struct Home: View {
     var body: some View {
         ZStack {
-            Color("bg").ignoresSafeArea()
+            Color("bg")
+                .ignoresSafeArea()
         }
-        .activityIndicator(style: .style2, show: true, color: .white)
+        .activityIndicator(style: .style4, show: true, color: .white)
     }
 }
 

@@ -44,6 +44,7 @@ struct Indicator3: View {
                 }
             }
         }
+        .frame(width: 40, height: 40)
         .onReceive(timer) { input in
             if self.time % 2 == 0 {
                 self.animateBlock1 = true

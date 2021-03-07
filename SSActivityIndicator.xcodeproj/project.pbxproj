@@ -18,6 +18,7 @@
 		98FA346025F3E839009EA5B3 /* Indicator1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98FA345B25F3E7C2009EA5B3 /* Indicator1.swift */; };
 		98FA346325F3E8E5009EA5B3 /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98FA346225F3E8E5009EA5B3 /* View+Extension.swift */; };
 		98FA346625F3EDE2009EA5B3 /* AllIndicatorDesignView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98FA346525F3EDE2009EA5B3 /* AllIndicatorDesignView.swift */; };
+		98FA347225F4CE9F009EA5B3 /* IndicatorStyle4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98FA347125F4CE9F009EA5B3 /* IndicatorStyle4.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		98FA345B25F3E7C2009EA5B3 /* Indicator1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Indicator1.swift; sourceTree = "<group>"; };
 		98FA346225F3E8E5009EA5B3 /* View+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extension.swift"; sourceTree = "<group>"; };
 		98FA346525F3EDE2009EA5B3 /* AllIndicatorDesignView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllIndicatorDesignView.swift; sourceTree = "<group>"; };
+		98FA347125F4CE9F009EA5B3 /* IndicatorStyle4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndicatorStyle4.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +94,7 @@
 				98FA345B25F3E7C2009EA5B3 /* Indicator1.swift */,
 				98FA345825F3E7B5009EA5B3 /* Indicator2.swift */,
 				98FA345525F3E796009EA5B3 /* Indicator3.swift */,
+				98FA347125F4CE9F009EA5B3 /* IndicatorStyle4.swift */,
 			);
 			path = IndicatorStylees;
 			sourceTree = "<group>";
@@ -187,6 +190,7 @@
 				98FA345325F3A738009EA5B3 /* SSActivityIndicator.swift in Sources */,
 				98FA346625F3EDE2009EA5B3 /* AllIndicatorDesignView.swift in Sources */,
 				98FA346325F3E8E5009EA5B3 /* View+Extension.swift in Sources */,
+				98FA347225F4CE9F009EA5B3 /* IndicatorStyle4.swift in Sources */,
 				98FA344225F3A6D3009EA5B3 /* ContentView.swift in Sources */,
 				98FA345025F3A70B009EA5B3 /* Home.swift in Sources */,
 				98FA344025F3A6D3009EA5B3 /* SSActivityIndicatorApp.swift in Sources */,
